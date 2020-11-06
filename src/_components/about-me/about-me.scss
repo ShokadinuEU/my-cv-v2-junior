@@ -1,3 +1,23 @@
+.about-me__main-title,
+.about-me__sub-title {
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+}
+.about-me__main-title {
+  font-size: 48px;
+  line-height: 64px;
+}
+.about-me__sub-title {
+  font-size: 36px;
+  line-height: 48px;
+}
+.about-me__lead-title {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #808080;
+}
 .section__title {
   height: 40px;
   line-height: 40px;
@@ -9,4 +29,18 @@
   height: 60px;
   background-color: #d52027;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.description-box__with-shadow {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.description {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  line-height: 30px;
 }
