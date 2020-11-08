@@ -64,3 +64,27 @@
   color: #fff;
   margin: 0 auto;
 }
+
+button i[class^="icon__"] {
+  width: 15px;
+  height: 15px;
+}
+
+.button__pill-blue {
+  background-color: #1875f0;
+  cursor: pointer;
+}
+
+.icon__download {
+  margin-right: 12px;
+}
+.button__pill-blue {
+  height: 40px;
+  margin: 20px auto;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: block;
+  text-align: center;
+}
