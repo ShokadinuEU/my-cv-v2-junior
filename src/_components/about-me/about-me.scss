@@ -23,12 +23,34 @@
   line-height: 40px;
   text-align: center;
   color: white;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
 }
 .section__title-wrapper {
   padding: 10px;
   height: 60px;
   background-color: #d52027;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-color: #d52027;
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    right: -36px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 .description-box__with-shadow {
@@ -65,7 +87,7 @@
   margin: 0 auto;
 }
 
-button i[class^="icon__"] {
+button[class^="button__pill"] i[class^="icon__"] {
   width: 15px;
   height: 15px;
 }
@@ -73,6 +95,7 @@ button i[class^="icon__"] {
 .button__pill-blue {
   background-color: #1875f0;
   cursor: pointer;
+  outline: 0;
 }
 
 .icon__download {
@@ -87,4 +110,5 @@ button i[class^="icon__"] {
   padding: 0 24px;
   display: block;
   text-align: center;
+  font-weight: bolder;
 }
