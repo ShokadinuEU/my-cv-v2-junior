@@ -7,6 +7,7 @@
 .about-me__main-title {
   font-size: 48px;
   line-height: 64px;
+  margin: auto;
 }
 .about-me__sub-title {
   font-size: 36px;
@@ -103,7 +104,7 @@ button[class^="button__pill"] i[class^="icon__"] {
 }
 .button__pill-blue {
   height: 40px;
-  margin: 20px auto;
+  margin: 0 auto;
   color: white;
   border: 0;
   border-radius: 20px;
