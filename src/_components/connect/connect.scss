@@ -1,0 +1,19 @@
+.connect__image-avatar {
+  padding-top: 100%;
+  background-color: lightblue;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.7);
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url("/asset/image/portrait.png");
+  }
+}
